@@ -23,6 +23,7 @@ public class MathQuiz2 extends MathQuiz {
         boolean terminate = false;
         for (int round = 0; round < rounds; ++round) {
             System.out.println("Round " + (round + 1));
+            //好吧。
             double correctAnswer =()-> new Question();
 //                    quiz.generateQuestion();
             double uAnswer = 0d;
